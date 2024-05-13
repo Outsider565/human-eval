@@ -7,8 +7,8 @@ from human_eval.evaluation import evaluate_functional_correctness
 
 def entry_point(
     sample_file: str,
-    k: str = "1,10,100",
-    n_workers: int = 4,
+    k: str = "1,5",
+    n_workers: int = 8,
     timeout: float = 3.0,
     problem_file: str = HUMAN_EVAL,
 ):
